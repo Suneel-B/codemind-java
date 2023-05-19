@@ -1,11 +1,12 @@
-import java.util.Scanner;
-class Demo {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int num1 = scn.nextInt();
-        int num2 = scn.nextInt();
-        scn.close();
-        int product = num1*num2;
-        System.out.println(product);
-    }
+import java.util.*;
+public class File1
+{
+    public static void main(String[] args)
+{
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b=sc.nextInt();
+    int c = a*b;
+    System.out.println(c);
+}
 }
